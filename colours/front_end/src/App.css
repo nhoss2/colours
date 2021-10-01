@@ -1,0 +1,18 @@
+
+.app{
+    margin: 100px 10% 0 10%;
+}
+
+#colours-list{
+    display: flex;
+    justify-content: space-evenly; 
+    gap: 10px;
+}
+
+#colours-list .colour-box{
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    flex-grow: 1;
+}
